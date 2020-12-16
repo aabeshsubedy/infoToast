@@ -2,7 +2,10 @@ package com.infodev.infotoast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.icu.text.IDNA;
 import android.os.Bundle;
+
+import com.infodev.toastinfo.Toast.InfoToast;
 
 public class MainActivity extends AppCompatActivity {
 

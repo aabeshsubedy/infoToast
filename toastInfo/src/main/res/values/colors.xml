@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorSucess">#2ECC71</color>
+    <color name="colorError">#B93A3A</color>
+    <color name="colorInfo">#5DA5DE</color>
+
+</resources>
