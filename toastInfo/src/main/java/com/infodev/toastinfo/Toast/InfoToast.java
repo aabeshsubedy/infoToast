@@ -10,6 +10,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.cardview.widget.CardView;
+
 import com.bumptech.glide.Glide;
 import com.google.android.material.card.MaterialCardView;
 import com.infodev.toastinfo.R;
@@ -19,7 +21,7 @@ public class InfoToast {
     TextView toastMessageView;
     View toastView;
     ImageView toastImage;
-    MaterialCardView mainView;
+    CardView mainView;
 
     public InfoToast(Context context) {
         this.context = context;
@@ -31,7 +33,7 @@ public class InfoToast {
         toastView = inflater.inflate(R.layout.info_toast_layout, null);
         LinearLayout linearLayout = (LinearLayout) toastView.findViewById(R.id.nams_toast);
         toastMessageView = (TextView) toastView.findViewById(R.id.toastMessage);
-        mainView = (MaterialCardView) toastView.findViewById(R.id.mainView);
+        mainView = (CardView) toastView.findViewById(R.id.mainView);
         toastImage = (ImageView) toastView.findViewById(R.id.toastImage);
 
     }
